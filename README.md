@@ -13,8 +13,10 @@ surface-to-surface distance in millimetres, grades the proximity, and withholds
 the number when its own anatomy and topology checks fail. It runs locally, so
 scans never leave the machine. Research software, not a medical device.
 
-- Blind read on 10 fresh third molars: 0.23 mm median absolute error against
-  the expert, against 1.43 mm for the public baseline model.
+- Built to be cautious: every result carries a confidence flag, and CANDID
+  withholds the measurement rather than guess when its own checks fail.
+- Early pilot validation against an expert reader is reported, with its
+  limits, on the project page; larger validation is the next stage.
 - Details and limitations: [candidlabs.org](https://candidlabs.org) · [project page](https://github.com/ibrahimalroudhan-cmyk/CANDID)
 
 ## Interests
