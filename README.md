@@ -15,13 +15,10 @@ so scans never leave the machine. Research software, not a medical device.
 
 - Cautious by design: every result carries a confidence flag, and when its own
   checks fail it stays quiet instead of guessing.
-- Validation so far is a pilot against an expert reader: ten teeth, which I
-  would call encouraging and not much more. A larger, two-reader study is next.
-  Limits are on the project page.
+- Validation status and limits are on the project page, not here.
 - The measurement and grading code, with tests, is in the
-  [CANDID repository](https://github.com/ibrahimalroudhan-cmyk/CANDID). Look,
-  copy nothing, ask nicely (copyright notice applies). Patient data and model
-  weights are never published.
+  [CANDID repository](https://github.com/ibrahimalroudhan-cmyk/CANDID), under a
+  copyright notice. Patient data and model weights are never published.
 - Details and limitations: [candidlabs.org](https://candidlabs.org)
 
 ## Interests
@@ -38,7 +35,7 @@ Other people's excellent work, forked with gratitude and used with care:
 
 ## Publications
 
-Five papers, all from my earlier life as a researcher who had more free evenings.
+Five papers from my early days in research, when I was a novice and had more free evenings.
 
 - Alroudhan IE, Ganji KK, Hamza MO, Munisekhar MS, Sghaireen MG, et al. **Effect of N95 filtering facepiece respirators on dental health professionals with an emphasis on pulmonary function and heart rate: an intrasubject comparison.** *British Journal of Oral and Maxillofacial Surgery* 2021; 59(10): 1302–1307.
 - Alroudhan IE, Gamal M, Ganji KK, Khan AM, Alsharari KN, Alruwaili MK, et al. **The Effectiveness of Mouthwashes With Various Ingredients in Plaque Control: A Systematic Review and Meta-Analysis.** *Alternative Therapies in Health and Medicine* 2021.
