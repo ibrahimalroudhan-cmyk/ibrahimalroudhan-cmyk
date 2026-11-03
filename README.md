@@ -1,37 +1,44 @@
 # Ibrahim Alroudhan
 
-Specialty Registrar in Oral Surgery at the UCL Eastman Dental Institute, London.
-DDS, MFDS, MClinDent. I work on dental imaging research and build measurement
-tools that say so when they cannot give a trustworthy answer.
+Specialty Registrar in Oral Surgery at UCL Eastman Dental Institute, London.
+DDS, MFDS, MClinDent. By day I take out third molars; by night I measure how
+close they sit to a nerve, mostly so I can stop being surprised by it.
 
 ## Current work
 
 **[CANDID](https://candidlabs.org)** (Canal–tooth ANalysis for Decision-support
-in Impacted-molar Dentistry) is research software that segments the mandibular
-third molar and the inferior alveolar canal on CBCT, measures the shortest
-surface-to-surface distance in millimetres, grades the proximity, and withholds
-the number when its own anatomy and topology checks fail. It runs locally, so
-scans never leave the machine. Research software, not a medical device.
+in Impacted-molar Dentistry) is a small piece of research software. It segments
+the lower third molar and the inferior alveolar canal on CBCT, measures the gap
+in millimetres, grades it, and, in its one truly impressive trait, refuses to
+give a number when it isn't sure. I wish more things did that. It runs locally,
+so scans never leave the machine. Research software, not a medical device.
 
-- Built to be cautious: every result carries a confidence flag, and CANDID
-  withholds the measurement rather than guess when its own checks fail.
-- Early pilot validation against an expert reader is reported, with its
-  limits, on the project page; larger validation is the next stage.
-- Measurement and grading code, with tests, is public in the [CANDID repository](https://github.com/ibrahimalroudhan-cmyk/CANDID) (copyright notice applies; patient data and model weights are never published).
-- Details and limitations: [candidlabs.org](https://candidlabs.org) · [project page](https://github.com/ibrahimalroudhan-cmyk/CANDID)
+- Cautious by design: every result carries a confidence flag, and when its own
+  checks fail it stays quiet instead of guessing.
+- Validation so far is a pilot against an expert reader: ten teeth, which I
+  would call encouraging and not much more. A larger, two-reader study is next.
+  Limits are on the project page.
+- The measurement and grading code, with tests, is in the
+  [CANDID repository](https://github.com/ibrahimalroudhan-cmyk/CANDID). Look,
+  copy nothing, ask nicely (copyright notice applies). Patient data and model
+  weights are never published.
+- Details and limitations: [candidlabs.org](https://candidlabs.org)
 
 ## Interests
 
 - Medical image segmentation (nnU-Net v2) and CBCT analysis
-- Honest uncertainty: tools that report, flag or withhold
-- Pre-registered, reproducible evaluation of clinical AI
-- Oral and maxillofacial surgery, third molar surgery and nerve injury risk
+- Tools that report, flag or withhold, rather than bluff
+- Reproducible evaluation of clinical AI, which is rarer than it should be
+- Oral and maxillofacial surgery, third molars and nerve injury risk
 
-## Tools I work with
+## Tools I lean on
 
+Other people's excellent work, forked with gratitude and used with care:
 [nnU-Net](https://github.com/ibrahimalroudhan-cmyk/nnUNet) · [MONAI](https://github.com/ibrahimalroudhan-cmyk/MONAI) · [3D Slicer](https://github.com/ibrahimalroudhan-cmyk/Slicer) · [SimpleITK](https://github.com/ibrahimalroudhan-cmyk/SimpleITK) · [pydicom](https://github.com/ibrahimalroudhan-cmyk/pydicom) · [TotalSegmentator](https://github.com/ibrahimalroudhan-cmyk/TotalSegmentator) · [ToothFairy](https://github.com/ibrahimalroudhan-cmyk/ToothFairy)
 
 ## Publications
+
+Five papers, all from my earlier life as a researcher who had more free evenings.
 
 - Alroudhan IE, Ganji KK, Hamza MO, Munisekhar MS, Sghaireen MG, et al. **Effect of N95 filtering facepiece respirators on dental health professionals with an emphasis on pulmonary function and heart rate: an intrasubject comparison.** *British Journal of Oral and Maxillofacial Surgery* 2021; 59(10): 1302–1307.
 - Alroudhan IE, Gamal M, Ganji KK, Khan AM, Alsharari KN, Alruwaili MK, et al. **The Effectiveness of Mouthwashes With Various Ingredients in Plaque Control: A Systematic Review and Meta-Analysis.** *Alternative Therapies in Health and Medicine* 2021.
