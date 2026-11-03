@@ -17,6 +17,7 @@ scans never leave the machine. Research software, not a medical device.
   withholds the measurement rather than guess when its own checks fail.
 - Early pilot validation against an expert reader is reported, with its
   limits, on the project page; larger validation is the next stage.
+- Measurement and grading code, with tests, is public in the [CANDID repository](https://github.com/ibrahimalroudhan-cmyk/CANDID) (copyright notice applies; patient data and model weights are never published).
 - Details and limitations: [candidlabs.org](https://candidlabs.org) · [project page](https://github.com/ibrahimalroudhan-cmyk/CANDID)
 
 ## Interests
@@ -26,9 +27,11 @@ scans never leave the machine. Research software, not a medical device.
 - Pre-registered, reproducible evaluation of clinical AI
 - Oral and maxillofacial surgery, third molar surgery and nerve injury risk
 
-## Selected publications
+## Tools I work with
 
-Full list and citations: [Google Scholar](https://scholar.google.com/citations?user=xv5UYdoAAAAJ)
+[nnU-Net](https://github.com/ibrahimalroudhan-cmyk/nnUNet) · [MONAI](https://github.com/ibrahimalroudhan-cmyk/MONAI) · [3D Slicer](https://github.com/ibrahimalroudhan-cmyk/Slicer) · [SimpleITK](https://github.com/ibrahimalroudhan-cmyk/SimpleITK) · [pydicom](https://github.com/ibrahimalroudhan-cmyk/pydicom) · [TotalSegmentator](https://github.com/ibrahimalroudhan-cmyk/TotalSegmentator) · [ToothFairy](https://github.com/ibrahimalroudhan-cmyk/ToothFairy)
+
+## Publications
 
 - Alroudhan IE, Ganji KK, Hamza MO, Munisekhar MS, Sghaireen MG, et al. **Effect of N95 filtering facepiece respirators on dental health professionals with an emphasis on pulmonary function and heart rate: an intrasubject comparison.** *British Journal of Oral and Maxillofacial Surgery* 2021; 59(10): 1302–1307.
 - Alroudhan IE, Gamal M, Ganji KK, Khan AM, Alsharari KN, Alruwaili MK, et al. **The Effectiveness of Mouthwashes With Various Ingredients in Plaque Control: A Systematic Review and Meta-Analysis.** *Alternative Therapies in Health and Medicine* 2021.
@@ -38,4 +41,4 @@ Full list and citations: [Google Scholar](https://scholar.google.com/citations?u
 
 ## Contact
 
-[Ibrahim@candidlabs.org](mailto:Ibrahim@candidlabs.org) · [LinkedIn](https://www.linkedin.com/in/ibrahim-alroudhan-a3b733216/) · [Google Scholar](https://scholar.google.com/citations?user=xv5UYdoAAAAJ) · [candidlabs.org](https://candidlabs.org)
+[Ibrahim@candidlabs.org](mailto:Ibrahim@candidlabs.org) · [LinkedIn](https://www.linkedin.com/in/ibrahim-alroudhan-a3b733216/) · [candidlabs.org](https://candidlabs.org)
