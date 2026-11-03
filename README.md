@@ -16,9 +16,10 @@ so scans never leave the machine. Research software, not a medical device.
 - Cautious by design: every result carries a confidence flag, and when its own
   checks fail it stays quiet instead of guessing.
 - Validation status and limits are on the project page, not here.
-- The measurement and grading code, with tests, is in the
+- A small public slice of the code is in the
   [CANDID repository](https://github.com/ibrahimalroudhan-cmyk/CANDID), under a
-  copyright notice. Patient data and model weights are never published.
+  copyright notice. For anything more, get in touch. Patient data and model
+  weights are never published.
 - Details and limitations: [candidlabs.org](https://candidlabs.org)
 
 ## Interests
